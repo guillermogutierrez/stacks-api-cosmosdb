@@ -19,7 +19,7 @@
     <properties>
 <!--        <maven.compiler.source>11</maven.compiler.source>-->
 <!--        <maven.compiler.target>11</maven.compiler.target>-->
-        <archetype.output.directory>stacks-api-example-cosmosdb</archetype.output.directory>
+        <archetype.output.directory>stacks-api-archetype-cosmosdb</archetype.output.directory>
     </properties>
 
     <build>
@@ -39,7 +39,7 @@
                     <artifactId>maven-archetype-plugin</artifactId>
                     <version>3.2.0</version>
                     <configuration>
-                        <outputDirectory>../../archetypes/stacks-api-example-cosmosdb</outputDirectory>
+                        <outputDirectory>../../archetypes/stacks-api-archetype-cosmosdb</outputDirectory>
                     </configuration>
                 </plugin>
             </plugins>
